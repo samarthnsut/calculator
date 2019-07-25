@@ -1,0 +1,30 @@
+#main{
+	height: 565px;
+	width: 400px;
+	border: 2px black solid;
+	transform: translate(500px,50px);
+	background-color: green;
+	display: flex;
+	
+	
+	
+}
+#display{
+	height: 120px;
+	border: 2px black solid;
+    flex-grow: 1;
+    background-color: cyan;
+    vertical-align: text-bottom;
+}
+.num{
+	height: 85px;
+
+	border: 1px black solid;
+	background-color: grey;
+}
+.op{
+	height: 85px;
+	background-color: brown;
+	border: 1px black solid;
+}
+

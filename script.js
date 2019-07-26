@@ -240,7 +240,7 @@ equal.addEventListener('click',function(){
                         break;
                     } 
                     else{   
-                     ans=exp1+exp2;
+                     ans=exp1/exp2;
                     console.log(ans)  
                     disp.innerText=ans;
                     }
